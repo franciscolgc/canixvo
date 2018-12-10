@@ -1,0 +1,116 @@
+img {
+	max-width: 100%;
+}
+body {
+	width: 100%;
+	font-family: 'Nunito-Sans',sans-serif;
+		
+}
+i{
+
+	font-size: 20px;
+	background-color: #4ad5ce;
+	padding: 30px;
+	border-radius:50%;
+	color: white;
+}
+h1,h2,h3,h4,h5,h6,{
+	text-align: center;
+}
+h1
+{
+	font-size: 2rem;
+}
+h2
+{
+	font-size: 1.8rem;
+}
+h3
+{
+	font-size: 1.6rem;
+}
+h4
+{
+	font-size: 1.3rem;
+}
+p,a,label,textarea
+{
+	font-size: 1rem !important;
+}
+.normal-headline {
+	color: #00cccc;
+}
+.brand-headline {
+	color: #4ad5ce;
+}
+.hero-headline {
+	color:white;
+}
+
+div#hero {
+	background-image:url('../img/bigBG.jpg');
+	background-size:cover;
+	height: 100vh;
+}
+div.carousel-item p,h5 {
+	text-align: center;
+}
+.carousel-control-prev, .carousel-control-next {
+	background-color: grey !important;
+	width: 30px;
+	height: 30px;
+}
+section#services {
+	text-align: center !important;
+	padding: 50px 0;
+}
+section#services h2 {
+	margin-bottom: 20px;
+}
+section#services h3 {
+	margin-top: 20px;
+}
+section#news {
+	text-align: center !important;
+	background: #f6f6f6;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+section#news h2 {
+	margin-bottom: 20px;
+}
+section#news h3 {
+	margin:20px 0;
+}
+section#testimonials {
+	text-align: center;
+	padding: 40px 0;
+	background-color: #f6f6f6;
+	margin: 30px 0;
+}
+section#contact {
+	text-align: center;
+	padding: 40px 0;
+}
+section#contact textarea {
+	margin-top: 20px;
+	width: 100%;
+
+}
+button#btn-send {
+	border: none !important;
+	background-color: #4ad5ce;
+	color: white; 
+}
+footer {
+	background-color: grey;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+footer i {
+	color: white !important;
+	font-size: 15px;
+	margin-left: 5px;
+	padding: 10px !important;
+}
